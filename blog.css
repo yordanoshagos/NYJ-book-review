@@ -1,0 +1,222 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: sans-serif;
+    line-height: 1.6;
+    background: color #f4f4f4;;
+    color: #333;
+}
+
+.container {
+    max-width: 960px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.container p{
+    font-size: 1.5em;
+}
+
+.main-header {
+    text-align: center;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #eee;
+    margin-bottom: 30px;
+}
+
+.site-title {
+    font-size: 2.5em;
+    color: #555;
+    margin-bottom: 5px;
+}
+
+.site-subtitle {
+    color: #777;
+    font-style: italic;
+}
+
+
+.book-image {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.book-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.main-content {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.blog-post {
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+}
+
+.post-title {
+    font-size: 2em;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.post-content p {
+    margin-bottom: 15px;
+}
+
+.personal-reflection {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #f9f9f9;
+    border-left: 5px solid #ccc;
+    border-radius: 3px;
+}
+
+.personal-reflection h3 {
+    font-size: 2em;
+    color:rgba(0, 0, 0, 0.699);
+    margin-bottom: 10px;
+}
+
+
+.comment-section {
+    padding: 20px;
+    background-color:wheat;
+    border-radius: 5px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+}
+
+.comment-section h3 {
+    font-size: 1.5em;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.comment-section .prompt {
+    color: gray;
+    margin-bottom: 10px;
+}
+
+ .form-group {
+    margin-bottom: 15px;
+    padding: 20px;
+}
+
+#comment-form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: rgba(128, 128, 128, 0.63);
+    font-size: 1.4em;
+}
+.form-group input{
+    padding: 20px;
+    width: 100%;
+}
+
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid gainsboro;
+    border-radius: 3px;
+    font-size: 1em;
+}
+
+.form-group textarea {
+    resize: vertical;
+    width: 100%;
+}
+
+.submit-button {
+    background-color: green;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 3px;
+    cursor: not-allowed;
+    font-size: 1.1em;
+}
+
+
+
+.main-footer {
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 30px;
+    background-color: #333;
+    color:whitesmoke;
+    font-size: 0.9em;
+}
+
+body {
+    background-image: url("image/download2.png"); 
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-position: center; 
+  }
+
+@media (max-width: 768px) {
+    .container {
+        margin: 10px;
+        padding: 15px;
+    }
+
+    .main-header {
+        padding-bottom: 15px;
+        margin-bottom: 20px;
+    }
+
+    .site-title {
+        font-size: 2em;
+    }
+
+    .main-content {
+        gap: 20px;
+    }
+
+    .blog-post,
+    .comment-input-section {
+        padding: 15px;
+    }
+
+    .post-title {
+        font-size: 1.7em;
+        margin-bottom: 10px;
+    }
+    a{font-size: 1.2rem;
+
+        line-height: 1.5;
+    }
+}
+nav{
+    
+    display: flex;
+    background-color: rgb(184, 177, 144);
+   
+    top: 0%;
+    z-index: 1000;
+    
+    gap: 5%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    a{
+        text-decoration: none;
+        color: black;
+        font-family: wid;
+    }
+}
