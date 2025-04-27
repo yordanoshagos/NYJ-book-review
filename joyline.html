@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="stylesheet" href="joyline.css">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal blog</title>
+</head>
+
+<body class="body">
+    <div class="container">
+        <div class="nav-bar">
+            <button><a href="index.html" id="home">Group Review</a></button>
+        </div>
+        <div class="text">
+            <h1>BORN A CRIME</h1>
+            <h2>Trevor Noah</h2>
+            <p><i>Stories from a South African childhood</i></p>
+        </div>
+
+    </div>
+    <div class="container-two">
+        <div>
+            <img src="images/book.jpg" id="book">
+        </div>
+        <div class="rename">
+            <h2>"No Place To Belong"</h2>
+            <p>
+
+
+                The above title could be a perfect alternative title for Born a crime book by Trevor Noah.
+                This is because most of the time Trevor Noah felt like an outsider. Trevor’s feeling was greatly
+                influenced by his mother’s choice to break the European Immortality act to have a child with a Swiss
+                man
+                called Robert. Trevor was “too white” to fit in the black kids and too “too black” to fit in the
+                white
+                kids.Trevor fits in both categories as he could speak fluent English, Zulu, Xhosa and Africaans.
+
+
+            </p>
+        </div>
+    </div>
+
+    <div class="container-three">
+        <div class="blog">
+            <h3>"Abel wanted a traditional marriage with a traditional wife… but he never fell in love with
+                subservient
+                women… 'He only wants a woman who is free because his dream is to put her in a cage.'”
+            </h3>
+            <p>
+
+
+
+                Abel Ngisaveni was Patricia’s second husband who started living with them after Trevor and his
+                friends
+                burned down the house of a white man while playing with a magnifying glass and matches. After Abel
+                and
+                Patricia got married, he became insecure of their relationship with Robert and Trevor could now
+                not see
+                his father any more.
+
+
+            </p>
+        </div>
+        <div class="picture">
+            <img src="images/trevor mom.jpg" id="trevor">
+        </div>
+
+    </div>
+    <div class="container-two">
+        <div>
+            <img src="images/trevor white clothe.jpg" id="book">
+        </div>
+        <div class="rename">
+
+            <p>
+
+
+                While gender emphasizes on gender equality and traditional expectations from the women,Patricia goes
+                contrary to all of these set bars. She leaves home and trains to become a secretary for her
+                oppressors.
+                Patricia’s fierce resilient nature in life is strange to Abel. Abel expects a woman who is care
+                free,
+                extremely submissive and who views her businesses as less important.
+
+                In the real world, most women are encouraged to be ambitious, independent and assertive but in
+                reality,
+                society views this as too much or that they're violating some societal norms. Women are expected to
+                strictly adhere to their gender roles while men are not. Moving forward as the society continues to
+                evolve, we hope that more men and women will be empowered so as not to reflect Abel’s Mindset.
+
+
+            </p>
+        </div>
+    </div>
+    
+    <div class="nook">
+
+        <h1>Insights Nook</h1>
+
+        <div class="quotes-overlay" id="quotes-slides">
+
+        </div>
+
+    </div>
+
+    </div>
+    <script>
+        const quotes = ['"I was born a crime but not a mistake"-Trevor Noah', '"Being chosen is the greatest gift you can give to another human being"-Patricia ',
+            '"My mother showed me what was possible. She has a plan for everything."-Trevor Noah', '"If you laugh enough, you can get through anything."-Trevor Noah',
+            '"I was blessed because I was loved"- Trevor Noah', '"Do not fight them, outsmart them"-Patricia', '"We pray because we are grateful not because we need anything"-Patricia'];
+        let i = 0;
+        setInterval(() => {
+            i = (i + 1) % quotes.length;
+            document.getElementById("quotes-slides").innerText = quotes[i];
+
+        }, 3000);
+    </script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>

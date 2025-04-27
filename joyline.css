@@ -1,0 +1,439 @@
+@font-face {
+    font-family: agba;
+    src: url(./fonts/Argon_Regular1.otf);
+}
+
+@font-face {
+    font-family: Dom;
+    src: url(./fonts/Domine-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: jhm;
+    src: url(./fonts/JMH\ Typewriter\ \(1\).ttf)
+}
+
+.body {
+    overflow-x: hidden;
+    background-color:#DACAA4;
+}
+
+.nav-bar {
+    border-radius: 20px;
+    padding-top: 250px;
+
+
+
+
+
+}
+
+#home {
+    padding: 50px;
+    padding-top: 5rem;
+    text-decoration: none;
+    color: black;
+    font-family: Dom;
+    font-size: 150%;
+
+
+
+}
+
+.body {
+    margin: 0;
+    height: 100%;
+    overflow-x: hidden;
+}
+
+.picture {
+    max-width: 1200px;
+    width: 100%;
+    transition: 0.5s ease-out;
+}
+
+.cont {
+    margin: 0;
+
+}
+
+.container {
+    position: relative;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.9)), url(images/noah2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 800px;
+    width: 100%;
+    color: white;
+    text-align: center;
+    margin-bottom: 70px;
+
+
+}
+
+.text {
+    line-height: 1.8rem;
+}
+
+.text h1 {
+    font-size: 500%;
+    font-family: jhm;
+    color: yellow;
+
+}
+
+.text h2 {
+    font-size: 200%;
+}
+
+.text p {
+    font-size: 100%;
+    font-family: Dom;
+}
+
+.rename {
+    padding-top: 6rem;
+    width: 50%;
+}
+
+.rename p {
+    text-align: left;
+    font-family: agba;
+    font-size: 130%;
+    text-align: justify;
+
+}
+
+.rename h2 {
+    font-size: 200%;
+    font-family: agba;
+}
+
+.rename h3 {
+    font-size: 120%;
+}
+
+.container-two {
+    display: flex;
+    justify-content: center;
+    gap: 8rem;
+    margin-bottom: 200px;
+}
+
+.container-three {
+    display: flex;
+    gap: 5rem;
+    justify-content: center;
+    background-color: #ECE7CA;
+    /* width: 150rem; */
+    height: 40rem;
+    margin-left: 2rem;
+    border-radius: 2rem;
+    margin-bottom: 10rem;
+    margin-right: 2rem;
+
+
+}
+
+.picture {
+    padding-top: 3rem;
+}
+
+.blog {
+    padding-top: 11rem;
+    width: 100%;
+    padding-left: 10rem;
+
+}
+
+.blog p {
+    text-align: left;
+    font-family: agba;
+    font-size: 130%;
+    text-align: justify;
+
+}
+
+.blog h2 {
+    font-size: 200%;
+    font-family: agba;
+}
+
+.blog h3 {
+    font-size: 120%;
+}
+
+#book {
+    width: 25rem;
+    height: 35rem;
+    border-radius: 1rem;
+    transform: rotate(-8deg);
+    border-bottom: solid 8px yellow;
+    border-right: solid 8px yellow;
+    transition: 0.5s ease-in;
+
+}
+
+#book:hover {
+    transform: scale(1.1);
+}
+
+
+#trevor {
+    width: 32rem;
+    height: 30rem;
+    border-radius: 1rem;
+    border-top: solid 5px yellow;
+    border-left: solid 5px yellow;
+    margin-top: 2rem;
+    transition: 0.5 ease-out;
+
+}
+
+#trevor:hover {
+    transform: scale(1.1);
+}
+
+.quotes-overlay {
+
+    font-family: jhm;
+    left: 50%;
+    font-size: 1.5em;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    color: black;
+}
+
+.nook {
+
+    width: 1000px;
+    height: 400px;
+    justify-content: center;
+    position: relative;
+    margin: 100px auto;
+    text-align: center;
+    margin-left: px;
+
+
+}
+
+.nook h1 {
+    font-size: 280%;
+    font-family: jhm;
+
+
+}
+@media only screen and (max-width:768px) {
+    .nav-bar {
+        border-radius: 20px;
+        padding-top: 90px; 
+        margin-bottom: 90px;
+    
+    }
+    
+    #home {
+        padding: 50px;
+        padding-top: 5rem;
+        text-decoration: none;
+        color: black;
+        font-family: Dom;
+        font-size: 120%;
+    
+    
+    
+    }
+    
+    .body {
+        margin: 0;
+        height: 100%;
+        overflow-x: hidden;
+    }
+    
+    .picture {
+        max-width: 100px;
+        transition: 0.5s ease-out;
+        display: none;
+    }
+    
+    .cont {
+        margin: 0;
+    
+    }
+    
+    .container {
+        position: relative;
+        background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.9)), url(images/noah2.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        height: 500px;
+        width: 130%;
+        color: white;
+        text-align: center;
+        margin-bottom: 50px;
+    
+    
+    }
+    
+    .text {
+        line-height: 1.8rem;
+        margin-top: -50px;
+    }
+    
+    .text h1 {
+        font-size: 400%;
+        font-family: jhm;
+        color: yellow;
+    
+    }
+    
+    .text h2 {
+        font-size: 200%;
+    }
+    
+    .text p {
+        font-size: 100%;
+        font-family: Dom;
+    }
+    
+    .rename {
+        padding-top:-50px;
+        width: 200%;
+        margin-right: -100px;
+    }
+    
+    .rename p {
+        text-align: left;
+        font-family: agba;
+        font-size: 180%;
+        text-align: justify;
+    
+    }
+    
+    .rename h2 {
+        font-size: 200%;
+        font-family: agba;
+    }
+    
+    .rename h3 {
+        font-size: 120%;
+    }
+    
+    .container-two {
+        display: flex;
+        justify-content: center;
+        gap: 8rem;
+        margin-bottom: 00px;
+        margin-top: -120px;
+    }
+    
+    .container-three {
+        display: flex;
+        gap: 5rem;
+        justify-content: center;
+        background-color: #ECE7CA;
+        width: 43rem; 
+        height: 50rem;
+        margin-left: 2rem;
+        border-radius: 2rem;
+        margin-bottom: 15rem;
+        margin-right: 2rem;
+    
+    
+    }
+    
+    .picture {
+        padding-top: 3rem;
+    }
+    
+    .blog {
+        padding-top: 5rem;
+        width: 80%;
+        margin-left: -90px;
+        padding-right: 20px;
+    
+    }
+    
+    .blog p {
+        text-align: left;
+        font-family: agba;
+        font-size: 180%;
+        text-align: justify;
+    
+    }
+    
+    
+    .blog h3 {
+        font-size: 200%;
+        font-family: agba;
+    }
+    
+    #book {
+        width: 17rem;
+        height: 35rem;
+        border-radius: 1rem;
+        border-bottom: solid 5px yellow;
+        border-right: solid 5px yellow;
+        transition: 0.5s ease-in;
+        margin-left: 2rem;
+        margin-top: 5rem;
+        display: none;
+    
+    }
+    
+    #book:hover {
+        transform: scale(1.1);
+    }
+    
+    
+    #trevor {
+        width: 32rem;
+        height: 30rem;
+        border-radius: 1rem;
+        border-top: solid 5px yellow;
+        border-left: solid 5px yellow;
+        margin-top: 2rem;
+        transition: 0.5 ease-out;
+        display: none;
+    
+    }
+    
+    #trevor:hover {
+        transform: scale(1.1);
+    }
+    
+    .quotes-overlay {
+    
+        font-family: jhm;
+        left: 10%;
+        font-size: 1.3em;
+        text-align: center;
+        padding: 20px;
+        border-radius: 10px;
+        color: black;
+    }
+    
+    .nook {
+    
+        width: 1000px;
+        height: 400px;
+        justify-content: center;
+        position: relative;
+        margin: 00px;
+        text-align: center;
+        margin-left: px;
+    
+    
+    }
+    
+    .nook h1 {
+        font-size: 200%;
+        font-family: jhm;
+        margin-left: -30px;
+    
+    
+    }
+
+}
