@@ -1,0 +1,178 @@
+@font-face {
+    font-family: poppins;
+    src: url(Poppins-SemiBold.ttf);
+}
+
+
+
+
+
+.blog{
+    margin-top: 6%;
+    margin-left: 8%;
+    display: flex;
+    font-family: poppins;
+    gap: 200px;
+   
+
+}
+.book-name{
+text-align: center;
+}
+ h1{
+color: red;
+text-align: center;
+margin-top: 6%;
+font-size: 50px;
+}
+.image img{
+    width: 450px;
+    padding-left: 19%;
+    padding-top: 6%;
+}
+.descriptions{
+    padding-top: 2rem;
+}
+.descriptions p{
+    font-size: 17px;
+   color: white;
+    padding-top: 2%;
+    text-align: justify;
+    width: 80%;
+
+
+}
+.descriptions h4{
+    text-align: justify;
+  
+
+}
+h4{
+    color: rgb(172, 149, 172);
+    text-align: justify;
+    padding-top: -3%;
+    width: 80%;
+}
+.review{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8),rgba(0, 0, 0, 0.9) ),url(fana-images/Como\ organizar.jpeg);
+  
+}
+.book-name p{
+    color: white;
+    font-family: poppins;
+}
+
+
+
+
+
+
+nav{
+    display: flex;
+    background-color: rgb(199, 193, 163);
+    position: sticky;
+    top: 0%;
+    z-index: 1000;
+    margin-bottom: 5em;
+    width: 99.15vw;
+    height: 7vh;
+    gap: 5%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    a{
+        text-decoration: none;
+        color: black;
+        font-family: wid;
+    }
+
+}
+.icon-link{
+    display: block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 768px){
+
+
+
+    .blog{
+  
+        flex-direction: column;
+        font-family: poppins;
+    
+       
+    
+    }
+    .book-name{
+    text-align: center;
+    }
+     h1{
+    color: red;
+    text-align: center;
+    margin-top: 6%;
+    font-size: 50px;
+    }
+    .image img{
+        width: 300px;
+     padding-left: 1%;
+        padding-top: 6%;
+    }
+    .descriptions{
+      margin-top: -50%;
+    }
+    .descriptions p{
+        font-size: 17px;
+       color: white;
+        padding-top: 2%;
+        text-align: justify;
+        width: 95%;
+    
+    
+    }
+    .descriptions h4{
+        text-align: justify;
+      
+    
+    }
+    h4{
+        color: rgb(172, 149, 172);
+        text-align: justify;
+        padding-top: 6%;
+        width: 95%;
+    }
+    .review{
+        background-image: linear-gradient(rgba(0, 0, 0, 0.8),rgba(0, 0, 0, 0.9) ),url(Como\ organizar.jpeg);
+       
+    }
+    .book-name p{
+        color: white;
+        font-family: poppins;
+        font-size: 8px;
+        padding-left: -3%;
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+
+
+}
