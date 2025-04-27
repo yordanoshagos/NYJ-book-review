@@ -1,0 +1,329 @@
+@font-face {
+    font-family: jmh;
+    src: url(fonts/JMH\ Typewriter.ttf);
+}
+@font-face {
+    font-family: wid;
+    src: url(fonts/wid.ttf);
+}
+@font-face {
+    font-family: zeyada;
+    src: url(fonts/Zeyada-Regular.ttf);
+}
+@font-face {
+    font-family: kurale;
+    src: url(fonts/Kurale/Kurale-Regular.ttf);
+}
+body{
+    margin: 0 auto;
+    background-color: rgb(212, 206, 181);
+}
+.born-a-crime-page{
+    font-family: kurale;
+    display: flex;
+    gap: 20%;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgb(182, 209, 199);
+    background-color: rgb(182, 209, 199);
+    height: 40vh;
+    border-radius: 25px;
+    font-family: wid;
+    font-size: 200%;
+    color: rgb(112, 50, 8);
+    text-align: center;
+    /* margin-bottom: 6%; */
+}
+
+.trevor-book-img img{
+    width: 13vw;
+    border-radius: 15px;
+}
+nav{
+    display: flex;
+    background-color: rgb(199, 193, 163);
+    position: sticky;
+    top: 0%;
+    z-index: 1000;
+    margin-bottom: 5em;
+    width: 99.15vw;
+    height: 7vh;
+    gap: 5%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    a{
+        text-decoration: none;
+        color: black;
+        font-family: wid;
+    }
+
+}
+.icon-link{
+    display: block;
+}
+
+
+.humor-title{
+    /* margin-left: 35%; */
+    padding-left: 5%;
+    a{
+        text-decoration: none;
+        color: rgb(0, 0, 0);
+    }
+}
+.humor-as-armor h2{
+    position: relative;
+    left: 15%;
+    margin-top: 10%;
+    z-index: 1;
+    overflow: visible;
+    font-family: kurale;
+    color: rgb(255, 255, 255);
+    font-size: 350%;
+}                
+.humor-title img{
+    position: absolute;
+    z-index: -1;
+    top: 15%;
+    width: 30vw;
+    margin-left: -20%;
+    border-radius: 15px;
+    filter: brightness(0.5);
+    transition: transform 0.3s ease-in-out;
+} 
+.humor-title img:hover{
+    transform: scale(1.1); 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+.humor-as-armor{
+    position: relative;
+    display: flex;
+    margin-bottom: 5%;
+    border-top: 2px solid;
+    border-bottom: 2px solid;
+    padding-top: 3%;
+    padding-bottom: 11%;
+    width: 85vw;
+    margin-left: 6%;  
+}
+
+.humor-as-armor h2 span{
+    color: rgb(245, 163, 12);
+    font-size: 60%;
+    margin-left: 32%;
+    cursor: pointer;
+}
+.humor-dropdown{
+    display: none;
+    font-family: kurale;
+    font-size: 128%;
+    position: absolute;
+    border: 1px solid rgb(182, 209, 199);
+    background-color: rgb(182, 209, 199);
+    width: 85vh;
+    box-shadow: 1px 10px 18px 1px rgba(0, 0, 0, 0.2);
+    padding: 19px 16px;
+    top: 2%;
+    left: 48%;
+    z-index: 1;
+    border-radius: 10px;
+    color: rgb(0, 0, 0);
+}
+.humor-dropdown span{
+    color: rgb(148, 8, 8);
+}
+.humor-as-armor:hover .humor-dropdown{
+    display: block;
+}
+.identity-belonging{
+    display: flex;
+    gap: 10%;
+    padding: 4%;
+    font-family: poppins;
+    
+}
+#identity-title{
+    font-family: kurale;
+    text-align: center;
+    font-size: 250%;
+    color: rgb(112, 50, 8);
+    margin-bottom: 3%;
+}
+.identity-belonging-txt{
+    font-family: kurale;
+    font-size: 135%;
+    /* margin-left: 4%; */
+    margin-top: -2%;
+    height: 75vh;
+    width: 120vw;
+    border: 1px solid rgb(182, 209, 199);
+    background-color: rgb(182, 209, 199);
+    border-radius: 15px;
+    padding: 1%;
+    transition: transform 0.3s ease-in-out;
+}
+.identity-belonging-txt:hover{
+    transform: scale(1.1); 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+.identity-belonging-txt span{
+    color: rgb(145, 2, 2);
+    font-size: 120%;
+    margin-left: 10%;
+}
+.vertical-line {
+    width: 4px; 
+    height: 585px;
+    border-left: 1px solid black; 
+    margin: 0 auto;
+  }
+.identity-img img{
+    width: 34vw;
+    filter: brightness(0.6);
+    height: 79vh;
+    margin-top: -5%;
+    border-radius: 15px;
+    transition: transform 0.3s ease-in-out;
+} 
+.identity-img img:hover{
+    transform: scale(1.1); 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+.images-born-a-crime{
+    display: flex;
+    gap: 5%;
+    margin-left: 30%;
+    margin-top: 3%;
+}
+.images-born-a-crime img{
+    height: 25vh;
+    width: 15%;
+}
+.family-protection{
+    font-family: kurale;
+    font-size: 140%;
+    text-align: center;
+    justify-content: center;
+    margin-top: 3%;
+    margin-left: 14%;
+    width: 70%;
+    margin-bottom: 5%;
+}
+.family-protection h2{
+    font-size: 250%;
+    color: rgb(112, 50, 8);
+}
+.protaginest{
+    background-image: url('https://www.warp.dev/static/image/r/w=1920,q=50,format=auto/8_pre_footer_14d199f2af.jpg');
+    background-size: 100vw 100vh;
+    background-repeat: no-repeat;
+    display: flex;
+    gap: 15%;
+    color: white;
+    margin-bottom: 5%;
+}
+.patricia-trevor-img{
+    padding: 2%;
+}
+.patricia-protaginest{
+    font-family: kurale;
+    font-size: 140%;
+    width: 45vw;
+}
+.patricia-protaginest h2{
+    font-size: 200%;
+}
+#mother-trevor{
+    width: 70%;
+    border: 7px solid white;
+}
+#patricia-trevor{
+    width: 69%;
+    margin-left: 76%;
+    margin-top: -19%;
+    border: 7px solid white;
+}
+.love-title{
+    background-color: rgb(182, 209, 199);
+    font-family: kurale;
+    font-size: 200%;
+    text-align: center;
+}
+.love-family{
+    margin-top: -5.1%;
+}
+.familial-romantic {
+    display: none;
+    margin-top: 10em;
+
+}
+.love-container {
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("images/background-individual.jpg");
+    border-radius: 35px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    max-width: 100vw;
+    margin: 0 auto;
+    text-align: center;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    width: 60vw;
+    background-color: rgba(0, 0, 0, 0.685);
+    color: white;
+    height: 55vh;
+    margin-top: 5%;
+    font-family: kurale;
+    margin-bottom: 5em;
+}
+
+.fam-love-content{
+    font-size: 1.2rem;
+    padding: 20px;
+    width: 65%;
+    margin-left: 15%;
+
+}
+
+.navigation-button {
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    border: none;
+    cursor: pointer;
+    opacity: 0.8;
+    font-size: 18px;
+}
+
+.w3-display-left {
+    left: 0;
+}
+
+.w3-display-right {
+    right: 0;
+}
+
+.navigation-button:hover {
+    background-color: rgb(24, 22, 22);
+}
+.summary{
+    display: flex;
+    padding: 1em;
+}
+.summary p{
+    font-family: kurale;
+    width: 70vw;
+    margin-top: 3.5em;
+    font-size: 200%;
+    height: 17vh;
+    text-align: center;
+    padding: 5em;
+    background-color: rgb(182, 209, 199);
+}
+.summary img{
+    width: 22vw;
+}

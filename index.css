@@ -1,0 +1,76 @@
+@font-face {
+    font-family: poppins;
+    src: url(fonts/Poppins/Poppins-Regular.ttf);
+}
+@font-face {
+    font-family: wid;
+    src: url(fonts/wid.ttf);
+}
+@font-face {
+    font-family: zeyada;
+    src: url(fonts/Zeyada-Regular.ttf);
+}
+body{
+    margin: 0 auto;
+    font-family: poppins;
+}
+.book-review{
+    margin: 0% auto;
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(images/2b484b8f2dca0a3432a006851ba43b34.jpg);
+    background-size: 100vw 100vh;
+    height: 100vh;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    gap: 12%;
+    justify-content: center;
+    color: white;
+    overflow: hidden;
+    font-family: wid;
+    font-size: 150%;
+}
+.book-review h1{
+    position: sticky;
+}
+.group-book img{
+    width: 15vw;
+    height: 26vh;
+    margin-left: 9%;
+    border-radius: 15px;
+    transition: transform 0.3s ease-in-out;
+}
+.group-book img:hover{
+    transform: scale(1.1); 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    border: none;
+}
+.individual-review img{
+    width: 13vw;
+    margin-left: 16%;
+    border-radius: 15px;
+    transition: transform 0.3s ease-in-out;
+}
+.individual-review img:hover{
+    transform: scale(1.1); 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    border: none;
+}
+nav{
+    display: flex;
+    border: 1px solid rgb(61, 82, 75);
+    background-color: rgb(61, 82, 75);
+    border-radius: 55px;
+    height: 7vh;
+    align-items: center;
+    gap: 5%;
+    width: 25vw;
+    margin-top: -8%;
+    justify-content: center;
+    margin-left: 38%;
+    font-family: wid;
+    font-size: 120%;
+}
+nav a{
+    color: white;
+    text-decoration: none;
+}

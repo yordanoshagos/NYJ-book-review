@@ -1,0 +1,66 @@
+@font-face {
+    font-family: wid;
+    src: url(fonts/wid.ttf);
+}
+body{
+    margin-top: 6em;
+    background-image:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('images/indiv.jpg');
+    
+
+}
+.all-members{
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    margin-bottom: 2em;
+}
+.all-member{
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+.all-members img{
+    width: 12vw;
+}
+.all-member img{
+    width: 12vw;
+}
+.all-members a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-family: wid;
+    font-size: 150%;
+}
+.all-member a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-family: wid;
+    font-size: 150%;
+
+}
+.all-member h3{
+    text-align: center;
+}
+.all-members h3{
+    text-align: center;
+}
+
+nav{
+    display: flex;
+    border: 1px solid rgb(61, 82, 75);
+    background-color: rgb(61, 82, 75);
+    border-radius: 55px;
+    height: 7vh;
+    align-items: center;
+    gap: 5%;
+    width: 25vw;
+    margin-top: 3%;
+    justify-content: center;
+    margin-left: 38%;
+    font-family: wid;
+    font-size: 120%;
+}
+nav a{
+    color: white;
+    text-decoration: none;
+}

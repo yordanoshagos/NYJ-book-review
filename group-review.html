@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Reviews</title>
+    <link rel="stylesheet" href="group-review.css">
+    <link rel="icon"
+        href="https://images.theconversation.com/files/45159/original/rptgtpxd-1396254731.jpg?ixlib=rb-4.1.0&q=45&auto=format&w=754&fit=clip"
+        type="image/x-icon">
+</head>
+
+<body>
+    <div class="both-books">
+        <div class="book">
+            <div class="book-content">
+                <a href="born-a-crime.html"><img src="images/born-a-crime.jpeg" alt=""></a>
+                <div class="quotes">
+                    <p class="slide">“My mom did what school didn’t. She taught me how to think.”</p>
+                    <p class="slide">“The more time I spent in jail, the more I realized that the law isn’t rational at all. It’s a lottery. What color is your skin? How much money do you have? Who’s your lawyer? Who’s the judge?” </p>
+                    <p class="slide">“‘Mom, these are fake,’ I said.
+                        ‘I don’t see the difference.’
+                        ‘Look at the logo. There are four stripes instead of three.’
+                        ‘Lucky you,’ she said. ‘You got one extra.’”</p>
+                    <p class="slide">“Don’t fight the system, mock the system.”</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="book">
+            <div class="book-content">
+                <div class="quotes">
+                    <p class="slide2">"Remember that a person's name is to that person the most important sound in any language. "</p>
+                    <p class="slide2">'Show respect for the other person's opinions. Never say, "You're wrong."'</p>
+                    <p class="slide2">“Be a good listener. Encourage others to talk about themselves. ”</p>
+                    <p class="slide2">“Give the other person a fine reputation to live up to.”</p>
+                    <p class="slide2">" Smile."</p>
+                </div>
+                <img src="images/influence friends.jpeg" alt="" id="how-to-win-book">
+            </div>
+        </div>
+    </div>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="group-review.html">Group Review</a>
+        <a href="all-individual-blog.html">Individual Review</a>
+    </nav>
+</body>
+
+</html>
+
+
+<script>
+    let slideIndex1 = 0;
+    let slideIndex2 = 0;
+    const slides1 = document.getElementsByClassName("slide");
+    const slides2 = document.getElementsByClassName("slide2");
+    function showSlides1() {
+        for (let i = 0; i < slides1.length; i++) {
+            slides1[i].style.display = "none";
+        }
+        slideIndex1++;
+        if (slideIndex1 > slides1.length) slideIndex1 = 1;
+        slides1[slideIndex1 - 1].style.display = "block";
+        setTimeout(showSlides1, 2000);
+    }
+    function showSlides2() {
+        for (let i = 0; i < slides2.length; i++) {
+            slides2[i].style.display = "none";
+        }
+        slideIndex2++;
+        if (slideIndex2 > slides2.length) slideIndex2 = 1;
+        slides2[slideIndex2 - 1].style.display = "block";
+        setTimeout(showSlides2, 2000);
+    }
+    showSlides1();
+    showSlides2();
+</script>
