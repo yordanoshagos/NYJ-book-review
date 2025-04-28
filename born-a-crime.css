@@ -342,14 +342,3 @@ nav{
 
 
 
-
-@media only screen and (max-width:430){
-
-    .humor-as-armor{
-           flex-direction: column;
-
-    }
-    .humor-title{
-        
-    }
-}
