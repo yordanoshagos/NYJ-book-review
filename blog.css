@@ -19,7 +19,7 @@ body {
     position: relative;
     overflow: hidden;
     height: 550px; 
-    background-color: #e0e0e0;
+    background-color: darkslategray;
 }
 
 .hero-image {
@@ -80,7 +80,7 @@ body {
 }
 
 .hero-button:hover {
-    background-color: #0056b3;
+    background-color: rgba(0, 0, 139, 0.24);
     transform: scale(1.05); 
 }
 @keyframes fadeIn {
@@ -128,7 +128,7 @@ nav a:hover {
     max-width: 960px;
     margin: 30px auto; 
     padding: 30px; 
-    background-color: #fff;
+    background-color: whitesmoke;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08); 
     border-radius: 8px; 
 }
@@ -142,19 +142,21 @@ nav a:hover {
 .main-header {
     text-align: center;
     padding-bottom: 25px;
-    border-bottom: 2px solid #eee; 
+    border-bottom: 2px solid slategray; 
     margin-bottom: 40px;
+    border-bottom: 3px solid rgba(0, 0, 0, 0.507);
+    border-top: 3px solid rgba(0, 0, 0, 0.603);
 }
 
 .site-title {
     font-size: 3em;
-    color: #333;
+    color:rgba(0, 0, 0, 0.788);
     margin-bottom: 10px;
     font-weight: bold;
 }
 
 .site-subtitle {
-    color: #777;
+    color: dimgray;
     font-style: italic;
     font-size: 1.2em;
 }
@@ -190,17 +192,19 @@ nav a:hover {
 
 .blog-post {
     padding: 30px;
-    background-color: #fff;
+    background-color: rgba(230, 230, 250, 0.788);
     border-radius: 8px;
     box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
-    border: 1px solid #eee; 
+    border: 1px solid color(srgb red green blue); 
 }
 
 .post-title {
     font-size: 2.5em; 
-    color: #333;
+    color: dimgray;
     margin-bottom: 20px;
     font-weight: bold;
+
+    
 }
 
 .post-content p {
@@ -210,8 +214,8 @@ nav a:hover {
 .personal-reflection {
     margin-top: 30px;
     padding: 25px;
-    background-color: #f9f9f9;
-    border-left: 8px solid #ccc; 
+    background-color: rgba(220, 220, 220, 0.61);
+    border-left: 8px solid rgba(105, 105, 105, 0.719); 
     border-radius: 5px;
 }
 
@@ -225,7 +229,7 @@ nav a:hover {
 
 .comment-section {
     padding: 30px;
-    background-color: #f5f5dc; /
+    background-color: rgba(233, 150, 122, 0.315);
     border-radius : 8px;
     box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
     margin-top: 40px;
@@ -233,13 +237,13 @@ nav a:hover {
 
 .comment-section h3 {
     font-size: 2em;
-    color: #333;
+    color:rgba(0, 0, 0, 0.514);
     margin-bottom: 20px;
     font-weight: bold;
 }
 
 .comment-section .prompt {
-    color: #777;
+    color: gray;
     margin-bottom: 15px;
     font-size: 1.1em;
 }
@@ -247,16 +251,16 @@ nav a:hover {
 .form-group {
     margin-bottom: 20px;
     padding: 15px;
-    background-color: #fff;
+    background-color: whitesmoke;
     border-radius: 5px;
-    border: 1px solid #ddd;
+    border: 1px solid whitesmoke;
 }
 
 #comment-form label {
     display: block;
     margin-bottom: 8px;
     font-weight: bold;
-    color: #555;
+    color: rgba(0, 0, 0, 0.671);
     font-size: 1.2em;
 }
 
@@ -265,7 +269,7 @@ nav a:hover {
 .form-group textarea {
     padding: 12px;
     width: 100%;
-    border: 1px solid #ccc;
+    border: 1px solid whitesmoke;
     border-radius: 5px;
     font-size: 1em;
 }
@@ -275,7 +279,7 @@ nav a:hover {
 }
 
 .submit-button {
-    background-color: #5cb85c; 
+    background-color: green; 
     color: white;
     padding: 12px 20px;
     border: none;
@@ -286,7 +290,7 @@ nav a:hover {
 }
 
 .submit-button:hover {
-    background-color: #4cae4c;
+    background-color: rgba(0, 128, 0, 0.582);
     transform: scale(1.02);
 }
 
@@ -295,8 +299,8 @@ nav a:hover {
     text-align: center;
     padding: 30px 0;
     margin-top: 50px;
-    background-color: #333;
-    color: #f0f0f0; 
+    background-color:rgba(0, 0, 0, 0.678);
+    color: whitesmoke; 
     font-size: 1em;
 }
 
@@ -353,7 +357,7 @@ nav a:hover {
     nav a {
         padding: 10px;
         text-align: center;
-        border-bottom: 1px solid #ddd;
+        border-bottom: 1px solid ;
     }
 
     nav a:last-child {
@@ -386,5 +390,75 @@ nav a:hover {
 
     .comment-section h3 {
         font-size: 1.7em;
+    }
+}
+
+
+
+
+.quotes-section {
+    margin-top: 4em; 
+    margin-bottom: 4em;
+    padding: 2em;
+    background-color: whitesmoke;
+    border-top: 2px solid rgba(128, 128, 128, 0.349); 
+    border-bottom: 2px solid rgba(128, 128, 128, 0.329);
+    border-radius: 8px;
+    text-align: center;
+}
+
+.quotes-section h3 {
+    color: black;
+    margin-bottom: 1.5em;
+    font-weight: bold;
+    font-size: 2em; 
+}
+
+.quotes-section blockquote {
+    margin: 1.5em auto; 
+    padding: 1.5em;
+    border-left: 5px solid rgba(0, 0, 255, 0.719); 
+    background-color: azure;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05); 
+    max-width: 80%; 
+}
+
+.quotes-section blockquote p {
+    font-style: italic;
+    color: rgba(0, 0, 0, 0.705);
+    margin-bottom: 0.5em;
+    font-size: 1.15em; 
+    line-height: 1.7; 
+}
+
+.quotes-section blockquote cite {
+    display: block;
+    text-align: right;
+    color: rgba(128, 128, 128, 0.986);
+    font-size: 0.9em;
+}
+
+@media (max-width: 768px) {
+    .quotes-section {
+        margin-top: 3em;
+        margin-bottom: 3em;
+        padding: 1.5em;
+    }
+
+    .quotes-section h3 {
+        font-size: 1.7em;
+        margin-bottom: 1em;
+    }
+
+    .quotes-section blockquote {
+        padding: 1em;
+        margin-left: auto;
+        margin-right: auto; 
+        max-width: 95%;
+    }
+
+    .quotes-section blockquote p {
+        font-size: 1em;
     }
 }
