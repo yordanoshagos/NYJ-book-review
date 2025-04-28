@@ -206,6 +206,31 @@
     font-family: Dom;
     justify-content: center;
 }
+.nav-bar {
+    border-radius: 20px;
+    padding-top:100px;
+    margin-left: 950px;
+    padding: 50px;
+    color: black;
+
+
+}
+.nav-bar a{
+    text-decoration: none;
+}
+#home-two {
+    padding: 50px;
+    padding-top: 5rem;
+    text-decoration: none;
+    color: black;
+    font-family: Dom;
+    font-size: 150%;
+
+
+
+}
+
+
 
 
 
