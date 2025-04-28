@@ -1,0 +1,120 @@
+body {
+    margin: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(250, 250, 176);
+}
+
+.home {
+    color: black;
+}
+
+#trevor {
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5));
+
+}
+#trevor img{
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5));
+}
+
+.home p {
+    position: absolute;
+    font-size: 10em;
+    color: white;
+    margin-top: -30%;
+    margin-left: 25%;
+}
+
+
+#blog {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 3%;
+    font-size: 55px;
+
+}
+
+.rename {
+    width: 85%;
+    display: flex;
+    margin-left: 2.5%;
+    justify-content: space-between;
+    padding: 5% 5%;
+    background-color: rgb(233, 229, 229);
+    line-height: 1.5em;
+    font-size: 1.2em;
+    margin-top: 5%;
+    border-radius: 3cqmax;
+}
+
+#name {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 3%;
+    font-size: 4em;
+    width: fit-content;
+    margin-left: 13%;
+
+}
+
+.rename h1 {
+    color: blue;
+}
+
+.img img {
+    height: 700px;
+    width: 600px;
+    border-radius: 50px;
+}
+
+.content {
+    width: 50%;
+    line-height: 2em;
+}
+
+.blog {
+    width: 50%;
+    background-color: white;
+    margin-top: 5%;
+    padding: 3%;
+    padding-left: 5%;
+    line-height: 2em;
+    font-size: 1.3em;
+    margin-left: 4%;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    margin-bottom: 5%;
+    box-shadow: 20px 50px 40px 50px transparent;
+
+}
+
+#quote {
+    color: rgb(13, 126, 13);
+    font-weight: bold;
+}
+
+#cover {
+    float: right;
+    margin-top: -59.7%;
+    width: 37%;
+    margin-right: 1%;
+    height: 104vh;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    box-shadow: 20px 50px 40px 50px transparent;
+}
+
+footer {
+    background-color: black;
+    color: gray;
+    text-align: center;
+    padding: 3%;
+    font-size: 1.3em;
+}
+
+@media only screen and (max-width:768) {
+    body {
+        max-width: 100%;
+    }
+}
