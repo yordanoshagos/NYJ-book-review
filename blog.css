@@ -1,0 +1,464 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+    line-height: 1.7; 
+    background-color:wheat; 
+    color: #333;
+    margin: 0; 
+}
+
+
+.hero-container {
+    position: relative;
+    overflow: hidden;
+    height: 550px; 
+    background-color: darkslategray;
+}
+
+.hero-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0.7; 
+    transition: transform 0.6s ease-out; 
+}
+
+.hero-container:hover .hero-image {
+    transform: scale(1.05); 
+}
+
+.hero-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color:red;
+    z-index: 10;
+    padding: 20px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5); 
+}
+
+.hero-title {
+    font-size: 4.5em; 
+    margin-bottom: 15px;
+    opacity: 1;
+    transform: translateY(0);
+    animation: fadeInUp 1.2s ease-out 0.3s forwards; 
+    font-weight: bold;
+}
+
+.hero-subtitle {
+    font-size: 1.8em; 
+    font-style: italic;
+    margin-bottom: 30px;
+    opacity: 1;
+    transform: translateY(0);
+    animation: fadeInDown 1.2s ease-out 0.5s forwards;}
+
+.hero-button {
+    display: inline-block;
+    padding: 14px 28px;
+    background-color: blue;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px; 
+    font-size: 1.2em;
+    transition: background-color 0.3s ease, transform 0.2s ease-in-out; 
+    opacity: 0;
+    animation: fadeIn 1.2s ease-out 0.7s forwards; 
+}
+
+.hero-button:hover {
+    background-color: rgba(0, 0, 139, 0.24);
+    transform: scale(1.05); 
+}
+@keyframes fadeIn {
+    from{opacity: 0;}to{
+        opacity: 1;
+    }
+}
+@keyframes fadeInUp{
+    from{opacity: 0;transform: translateY(-30px);}to{
+        opacity: 1; transform: translateY(0);
+    }}
+    @keyframes fadeInDown {from{opacity: 0;transform: translateY(30px);}to{opacity: 1;
+    transform: translateY(0);}
+        
+    }
+
+
+
+nav {
+    display: flex;
+    background-color: gray; 
+    top: 0;
+    z-index: 1000;
+    gap: 30px; 
+    align-items: center;
+    justify-content: center;
+    padding: 15px 20px; 
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05); 
+}
+
+nav a {
+    text-decoration: none;
+    color:black;
+    font-size: 1.1rem;
+    font-weight: bold;
+    transition: color 0.3s ease;
+
+}
+
+nav a:hover {
+    color:blue;
+}
+
+.container {
+    max-width: 960px;
+    margin: 30px auto; 
+    padding: 30px; 
+    background-color: whitesmoke;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08); 
+    border-radius: 8px; 
+}
+
+.container p {
+    font-size: 1.1em; 
+    line-height: 1.8;
+    margin-bottom: 18px;
+}
+
+.main-header {
+    text-align: center;
+    padding-bottom: 25px;
+    border-bottom: 2px solid slategray; 
+    margin-bottom: 40px;
+    border-bottom: 3px solid rgba(0, 0, 0, 0.507);
+    border-top: 3px solid rgba(0, 0, 0, 0.603);
+}
+
+.site-title {
+    font-size: 3em;
+    color:rgba(0, 0, 0, 0.788);
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.site-subtitle {
+    color: dimgray;
+    font-style: italic;
+    font-size: 1.2em;
+}
+
+
+.book-image {
+    text-align: center;
+    margin-bottom: 40px;
+    display: flex; 
+    gap: 20px; 
+    justify-content: center; 
+    flex-wrap: wrap; 
+}
+
+.book-image img {
+    max-width: 45%; 
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.book-image img:hover {
+    transform: scale(1.03); 
+}
+
+
+.main-content {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.blog-post {
+    padding: 30px;
+    background-color: rgba(230, 230, 250, 0.788);
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+    border: 1px solid color(srgb red green blue); 
+}
+
+.post-title {
+    font-size: 2.5em; 
+    color: dimgray;
+    margin-bottom: 20px;
+    font-weight: bold;
+
+    
+}
+
+.post-content p {
+    margin-bottom: 20px;
+}
+
+.personal-reflection {
+    margin-top: 30px;
+    padding: 25px;
+    background-color: rgba(220, 220, 220, 0.61);
+    border-left: 8px solid rgba(105, 105, 105, 0.719); 
+    border-radius: 5px;
+}
+
+.personal-reflection h3 {
+    font-size: 1.8em; 
+    color: rgba(0, 0, 0, 0.7);
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+
+.comment-section {
+    padding: 30px;
+    background-color: rgba(233, 150, 122, 0.315);
+    border-radius : 8px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+    margin-top: 40px;
+}
+
+.comment-section h3 {
+    font-size: 2em;
+    color:rgba(0, 0, 0, 0.514);
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.comment-section .prompt {
+    color: gray;
+    margin-bottom: 15px;
+    font-size: 1.1em;
+}
+
+.form-group {
+    margin-bottom: 20px;
+    padding: 15px;
+    background-color: whitesmoke;
+    border-radius: 5px;
+    border: 1px solid whitesmoke;
+}
+
+#comment-form label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.671);
+    font-size: 1.2em;
+}
+
+.form-group input[type="text"],
+.form-group input[type="email"],
+.form-group textarea {
+    padding: 12px;
+    width: 100%;
+    border: 1px solid whitesmoke;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+.form-group textarea {
+    resize: vertical;
+}
+
+.submit-button {
+    background-color: green; 
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer; 
+    font-size: 1.1em;
+    transition: background-color 0.3s ease, transform 0.2s ease-in-out;
+}
+
+.submit-button:hover {
+    background-color: rgba(0, 128, 0, 0.582);
+    transform: scale(1.02);
+}
+
+
+.main-footer {
+    text-align: center;
+    padding: 30px 0;
+    margin-top: 50px;
+    background-color:rgba(0, 0, 0, 0.678);
+    color: whitesmoke; 
+    font-size: 1em;
+}
+
+
+@media (max-width: 768px) {
+    .container {
+        margin: 20px;
+        padding: 20px;
+    }
+
+    .main-header {
+        padding-bottom: 20px;
+        margin-bottom: 30px;
+    }
+
+    .site-title {
+        font-size: 2.2em;
+    }
+
+    .site-subtitle {
+        font-size: 1.1em;
+    }
+
+    .book-image {
+        flex-direction: column; 
+        align-items: center;
+    }
+
+    .book-image img {
+        max-width: 80%;
+        margin-bottom: 20px;
+    }
+
+    .main-content {
+        gap: 30px;
+    }
+
+    .blog-post,
+    .comment-section {
+        padding: 20px;
+    }
+
+    .post-title {
+        font-size: 2em;
+        margin-bottom: 15px;
+    }
+
+    nav {
+        flex-direction: column; 
+        align-items: stretch;
+        padding: 10px;
+    }
+
+    nav a {
+        padding: 10px;
+        text-align: center;
+        border-bottom: 1px solid ;
+    }
+
+    nav a:last-child {
+        border-bottom: none;
+    }
+}
+
+
+@media (max-width: 576px) {
+    .hero-container {
+        height: 450px;
+    }
+
+    .hero-title {
+        font-size: 2.8em;
+    }
+
+    .hero-subtitle {
+        font-size: 1.4em;
+    }
+
+    .container {
+        margin: 15px;
+        padding: 15px;
+    }
+
+    .post-title {
+        font-size: 1.8em;
+    }
+
+    .comment-section h3 {
+        font-size: 1.7em;
+    }
+}
+
+
+
+
+.quotes-section {
+    margin-top: 4em; 
+    margin-bottom: 4em;
+    padding: 2em;
+    background-color: whitesmoke;
+    border-top: 2px solid rgba(128, 128, 128, 0.349); 
+    border-bottom: 2px solid rgba(128, 128, 128, 0.329);
+    border-radius: 8px;
+    text-align: center;
+}
+
+.quotes-section h3 {
+    color: black;
+    margin-bottom: 1.5em;
+    font-weight: bold;
+    font-size: 2em; 
+}
+
+.quotes-section blockquote {
+    margin: 1.5em auto; 
+    padding: 1.5em;
+    border-left: 5px solid rgba(0, 0, 255, 0.719); 
+    background-color: azure;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05); 
+    max-width: 80%; 
+}
+
+.quotes-section blockquote p {
+    font-style: italic;
+    color: rgba(0, 0, 0, 0.705);
+    margin-bottom: 0.5em;
+    font-size: 1.15em; 
+    line-height: 1.7; 
+}
+
+.quotes-section blockquote cite {
+    display: block;
+    text-align: right;
+    color: rgba(128, 128, 128, 0.986);
+    font-size: 0.9em;
+}
+
+@media (max-width: 768px) {
+    .quotes-section {
+        margin-top: 3em;
+        margin-bottom: 3em;
+        padding: 1.5em;
+    }
+
+    .quotes-section h3 {
+        font-size: 1.7em;
+        margin-bottom: 1em;
+    }
+
+    .quotes-section blockquote {
+        padding: 1em;
+        margin-left: auto;
+        margin-right: auto; 
+        max-width: 95%;
+    }
+
+    .quotes-section blockquote p {
+        font-size: 1em;
+    }
+}
